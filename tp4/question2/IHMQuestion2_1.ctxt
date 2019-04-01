@@ -1,5 +1,7 @@
 #BlueJ class context
-comment0.target=IHMQuestion2_1()
-comment1.params=args
-comment1.target=void\ main(String[])
-numComments=2
+comment0.target=IHMQuestion2_1
+comment1.params=
+comment1.target=IHMQuestion2_1()
+comment2.params=args
+comment2.target=void\ main(java.lang.String[])
+numComments=3

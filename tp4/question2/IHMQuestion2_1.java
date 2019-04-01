@@ -33,6 +33,17 @@ public class IHMQuestion2_1 extends JFrame {
         // le bouton B a 2 observateurs jbo1 et jbo2
 
         // le bouton C a 1 observateur jbo1
+        JButtonObserver jbo1 = new JButtonObserver("jbo1", contenu);
+        boutonA.addActionListener(jbo1);
+        boutonC.addActionListener(jbo1);
+        
+       JButtonObserver jbo2 = new JButtonObserver("jbo2", contenu);
+       boutonA.addActionListener(jbo2); 
+       boutonB.addActionListener(jbo2);
+       
+       JButtonObserver jbo3 = new JButtonObserver("jbo3", contenu);
+       boutonA.addActionListener(jbo3);
+        
 
       
     }

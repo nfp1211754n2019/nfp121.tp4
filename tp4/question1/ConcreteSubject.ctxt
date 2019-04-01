@@ -1,8 +1,10 @@
 #BlueJ class context
-comment0.params=
-comment0.target=ConcreteSubject()
-comment1.params=name
-comment1.target=void\ insert(java.lang.String)
-comment2.params=
-comment2.target=java.lang.String\ toString()
-numComments=3
+comment0.target=ConcreteSubject
+comment0.text=\r\n\ D\u00C3\u00A9crivez\ votre\ classe\ ConcreteSubject\ ici.\r\n\ \r\n\ @author\ (votre\ nom)\r\n\ @version\ (un\ num\u00C3\u00A9ro\ de\ version\ ou\ une\ date)\r\n
+comment1.params=
+comment1.target=ConcreteSubject()
+comment2.params=name
+comment2.target=void\ insert(java.lang.String)
+comment3.params=
+comment3.target=java.lang.String\ toString()
+numComments=4

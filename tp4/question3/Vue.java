@@ -13,7 +13,7 @@ import java.util.Observer;
  * @author (votre nom)
  * @version (un numéro de version ou une date)
  */
-public class Vue extends JPanel {// à compléter
+public class Vue extends JPanel implements Observer {// à compléter
 
     private JLabel etatPile;
     private PileModele<Integer> pile;
@@ -24,6 +24,7 @@ public class Vue extends JPanel {// à compléter
         this.etatPile = new JLabel("entrez des nombres entiers");
         setLayout(new FlowLayout(FlowLayout.LEFT));
         add(etatPile);
+        pile.addObserver(this);
         setBackground(Color.green);
         // inscription auprès du modèle comme observateur
     }

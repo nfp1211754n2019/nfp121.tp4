@@ -1,10 +1,11 @@
 #BlueJ class context
-comment0.params=
-comment0.target=void\ testNotify()
+comment0.target=PatternObservateur
 comment1.params=
-comment1.target=void\ test1()
+comment1.target=void\ testNotify()
 comment2.params=
-comment2.target=void\ test2()
+comment2.target=void\ test1()
 comment3.params=
-comment3.target=void\ test3()
-numComments=4
+comment3.target=void\ test2()
+comment4.params=
+comment4.target=void\ test3()
+numComments=5

@@ -38,7 +38,24 @@ public class IHMQuestion2_2 extends JFrame {
             // le bouton A a 1 observateur jmo1
             // le bouton B a 1 observateur jmo2
             // le bouton C a 1 observateur jmo3
+            JButtonObserver jbo1 = new JButtonObserver("jbo1", contenu);
+        boutonA.addActionListener(jbo1);
+        boutonC.addActionListener(jbo1);
         
+       JButtonObserver jbo2 = new JButtonObserver("jbo2", contenu);
+       boutonA.addActionListener(jbo2); 
+       boutonB.addActionListener(jbo2);
+       
+       JButtonObserver jbo3 = new JButtonObserver("jbo3", contenu);
+       boutonA.addActionListener(jbo3);
+       JMouseObserver jmo1 = new JMouseObserver("jmo1", contenu);
+       boutonA.addMouseListener(jmo1);
+       JMouseObserver jmo2 = new JMouseObserver("jmo2", contenu);
+       boutonB.addMouseListener(jmo2);
+       JMouseObserver jmo3 = new JMouseObserver("jmo3", contenu);
+       boutonC.addMouseListener(jmo3);
+
+
     }
     
      public static void main(String[] args){
