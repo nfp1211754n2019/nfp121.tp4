@@ -38,12 +38,12 @@ public class Controleur extends JPanel {
         boutons.setLayout(new FlowLayout()); 
         ButtonListener actionListener = new ButtonListener();
 
-        boutons.add(push);  push.addActionListener(null /* null est à remplacer */);
-        boutons.add(add);   add.addActionListener(null /* null est à remplacer */);
-        boutons.add(sub);   sub.addActionListener(null /* null est à remplacer */);
-        boutons.add(mul);   mul.addActionListener(null /* null est à remplacer */);
-        boutons.add(div);   div.addActionListener(null /* null est à remplacer */);
-        boutons.add(clear); clear.addActionListener(null /* null est à remplacer */);
+        boutons.add(push);  push.addActionListener(actionListener);
+        boutons.add(add);   add.addActionListener(actionListener);
+        boutons.add(sub);   sub.addActionListener(actionListener);
+        boutons.add(mul);   mul.addActionListener(actionListener);
+        boutons.add(div);   div.addActionListener(actionListener);
+        boutons.add(clear); clear.addActionListener(actionListener);
         add(boutons);
         boutons.setBackground(Color.red);
         actualiserInterface();
